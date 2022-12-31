@@ -26,7 +26,7 @@ include_once(G5_THEME_LIB_PATH.'/new_lastest.lib.php');
         include G5_BBS_PATH.'/newwin.inc.php'; // 팝업레이어
     }
     ?>
-    
+
 	<div id="hd_top">
         <div id="hd_tnb">
             <ul id="tnb">
@@ -52,7 +52,7 @@ include_once(G5_THEME_LIB_PATH.'/new_lastest.lib.php');
 
     <div id="hd_wrapper">
         <div id="logo">
-            <!-- 
+            <!--
             	관리자 설정에서 로고를 등록할 경우엔 아래 코드를 사용하세요.
             	<a href="<?php echo G5_URL ?>"><img src="<?php echo G5_IMG_URL ?>/logo.png" alt="<?php echo $config['cf_title']; ?>"></a>
              -->
@@ -96,7 +96,7 @@ include_once(G5_THEME_LIB_PATH.'/new_lastest.lib.php');
             </script>
         </fieldset>
     </div>
-    
+
     <nav id="gnb">
         <h2>메인메뉴</h2>
         <ul id="gnb_1dul">
@@ -150,9 +150,9 @@ include_once(G5_THEME_LIB_PATH.'/new_lastest.lib.php');
 	    <div id="aside_ct">
 	        <div class="short_cut">
 	            <ul>
-	                <li class="f_short_cut"><strong><a href="#">바로가기 메뉴 1</a></strong></li>
-	                <li><strong><a href="#">바로가기 메뉴 2</a></strong></li>
-	                <li><strong><a href="#">바로가기 메뉴 3</a></strong></li>
+	                <li class="f_short_cut"><strong><a href="http://naver.com">내 정보 수정 1</a></strong></li>
+	                <li><strong><a href="http://3.39.240.45/bbs/board.php?bo_table=gallery">갤러리</a></strong></li>
+	                <li><strong><a href="#">헬로 헬로</a></strong></li>
 	            </ul>
 	        </div>
 	        <div class="aside_lt">
@@ -169,4 +169,3 @@ include_once(G5_THEME_LIB_PATH.'/new_lastest.lib.php');
 
     <div id="container">
         <?php if (!defined("_INDEX_")) { ?><h2 id="container_title"><span title="<?php echo get_text($g5['title']); ?>"><?php echo get_head_title($g5['title']); ?></span></h2><?php } ?>
-
