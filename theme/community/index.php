@@ -17,7 +17,7 @@ add_javascript('<script src="'.G5_THEME_JS_URL.'/unslider.min.js"></script>', 10
     <div id="main_bn">
         <ul class="bn_ul">
             <li class="bn_bg1">
-                <div class="bn_wr"><a href="#none"><img src="<?php echo G5_THEME_IMG_URL ?>/main_banner.png" alt="메인베너" /></a></div>
+                <div class="bn_wr"><a href="#none"><img src="<?php echo G5_THEME_IMG_URL ?>/banner2.png" alt="메인베너" /></a></div>
             </li>
             <li class="bn_bg1">
                 <div class="bn_wr"><a href="#none"><img src="<?php echo G5_THEME_IMG_URL ?>/main_banner.png" alt="메인베너" /></a></div>
@@ -52,7 +52,7 @@ $(function() {
 
 
 <section class="idx_cnt">
-	
+
 	<div class="lt_li lt_li_left">
 		<!-- 전체 게시판 최신글 -->
 		<div class="lt">
@@ -82,28 +82,28 @@ $(function() {
 	    // 이 함수가 바로 최신글을 추출하는 역할을 합니다.
 	    // 사용방법 : latest(스킨, 게시판아이디, 출력라인, 글자수);
 	    // 테마의 스킨을 사용하려면 theme/basic 과 같이 지정
-	    echo latest('theme/basic', 'commu', 7, 20);
+	    echo latest('theme/basic', 'gallery', 7, 20);
 	    ?>
 	</div>
-	
+
 	<div class="lt_li">
 	    <?php
 	    // 이 함수가 바로 최신글을 추출하는 역할을 합니다.
 	    // 사용방법 : latest(스킨, 게시판아이디, 출력라인, 글자수);
 	    // 테마의 스킨을 사용하려면 theme/basic 과 같이 지정
-	    echo latest('theme/basic', 'free', 7, 20);
+	    echo latest('theme/basic', 'notice', 7, 20);
 	    ?>
 	</div>
-	
+
 	<div class="lt_li lt_li_left">
 	    <?php
 	    // 이 함수가 바로 최신글을 추출하는 역할을 합니다.
 	    // 사용방법 : latest(스킨, 게시판아이디, 출력라인, 글자수);
 	    // 테마의 스킨을 사용하려면 theme/basic 과 같이 지정
-	    echo latest('theme/basic', 'fun', 7, 20);
+	    echo latest('theme/basic', 'qa', 7, 20);
 	    ?>
 	</div>
-	
+
 	<div class="lt_li">
 	    <?php
 	    // 이 함수가 바로 최신글을 추출하는 역할을 합니다.
@@ -112,7 +112,7 @@ $(function() {
 	    echo latest('theme/basic', 'free', 7, 20);
 	    ?>
 	</div>
-	
+
 	<?php
 	// 이 함수가 바로 최신글을 추출하는 역할을 합니다.
 	// 사용방법 : latest(스킨, 게시판아이디, 출력라인, 글자수);
